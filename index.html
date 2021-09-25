@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Checkout page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <div class="container-reverse">
+            <section class="articles">
+                <article>
+                    <img src="img/photo1.png" alt="backbag">
+                    <div class="article-info">
+                        <h2>Vintage Backbag</h2>
+                        <h3>$54.99 <span>$94.99</span></h3>
+                        <div class="container-cant">
+                            <div class="square"><span class="material-icons">remove</span></div>
+                            <p>1</p>
+                            <div class="square"><span class="material-icons">add</span></div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <img src="img/photo2.png" alt="shoes">
+                    <div class="article-info">
+                        <h2>Levi Shoes</h2>
+                        <h3>$74.99 <span>$124.99</span></h3>
+                        <div class="container-cant">
+                            <div class="square"><span class="material-icons">remove</span></div>
+                            <p>1</p>
+                            <div class="square"><span class="material-icons">add</span></div>
+                        </div>
+                    </div>
+                </article>
+                <p class="price">Shipping <span>$19</span></p>
+                <p class="price">Total <span>$148.98</span></p>
+            </section>
+
+            <section class="contact-info">
+                <h3>Contact infomation</h3>
+                <form action="">
+                    <label for="email"> E-mail
+                        <span class="material-icons">email</span>
+                        <input type="email" name="email" placeholder="Enter your email..." required>
+                    </label>
+                    <br>
+                    <label for="tel">Phone
+                        <span class="material-icons">call</span>
+                        <input type="tel" name="tel" placeholder="Enter your phone..." required>
+                    </label>
+
+                    <h3>Shipping address</h3>
+                    <label for="name">Full name
+                        <span class="material-icons">account_circle</span>
+                        <input type="text" name="name" placeholder="Rodney Cotton" required>
+                    </label>
+                    <br>
+                    <label for="address">Address
+                        <span class="material-icons">home</span>
+                        <input type="text" name="address" placeholder="Your address.." required>
+                    </label>
+                    <br>
+                    <label for="city">City
+                        <span class="material-icons">location_city</span>
+                        <input type="text" name="city" placeholder="Your city.." required>
+                    </label>
+                    <br>
+                    <div class="container-address">
+                        <label for="country">Country
+                            <span class="material-icons">location_city</span>
+                            <select name="country" required>
+                                <option disabled="" selected="" value="">Your country...</option>
+                                <option value="">Option 1</option>
+                                <option value="">Option 2</option>
+                                <option value="">Option 3</option>
+                            </select>
+                        </label>
+                        <br>
+                        <label for="code">Postal code
+                            <span class="material-icons">markunread_mailbox</span>
+                            <input type="text" name="code" placeholder="Your postal code.." required>
+                        </label>
+                    </div>
+                    <br>
+                    <label id="check" for="save">
+                        <input type="checkbox" name="save" required>
+                        <p>Save this information for next time</p>
+                    </label>
+                    <br>
+                    <input type="submit" value="Continue" id=btn>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <small>created by <a href="https://github.com/BrendaZabala" target="_blank">brendaZabala</a> -
+            devChallenges.io</small>
+    </footer>
+</body>
+</html>
