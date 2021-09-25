@@ -23,13 +23,14 @@
 
 ## Overview
 
-![screenshot]()
-![screenshot]()
+![screenshot](https://github.com/BrendaZabala/checkout-page/blob/master/screenshots/screenshot-checkout-page-laptop.png?raw=true)
+![screenshot](https://github.com/BrendaZabala/checkout-page/blob/master/screenshots/screenshot-checkout-page-mobile.png?raw=true)
 
 ### Built With
 
 - [HTML](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 ## Features
 
